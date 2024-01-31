@@ -1,0 +1,13 @@
+.containerVideo {
+    background-color:rgba(0,7,33,0.8);
+    margin-top: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-weight: 400;
+    color: antiquewhite;
+}

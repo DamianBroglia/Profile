@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-inline: 180px;
+    padding-inline: 30px;
+    padding-top: 20px;
+padding-bottom: 50px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.containerButton {
+    margin-left: 180px;
+height: 45px;
+}
+.buttonText {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 5px;
+    margin-inline: 25px;
+    color: azure;
+  margin-top: 10px;
+}
+.button {
+    background-color: rgba(255, 255, 255, 0.4);
+border: none;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+
+.buttonNoSelect {
+    background-color: rgba(255, 255, 255, 0.2);
+border: none;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+}
