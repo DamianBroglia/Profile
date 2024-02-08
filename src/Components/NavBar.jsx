@@ -52,7 +52,7 @@ function NavBar() {
       }
       {showAnimations &&
         <div className='Text'>
-          <p className='text'>Mira mis animaciones y ediciones de videos realizadas en After Effecs</p>
+          <p className='text'>Mira mis animaciones y ediciones de videos realizadas en After Effects</p>
         </div>
       }
 

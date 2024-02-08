@@ -6,10 +6,11 @@
     margin-inline: 180px;
     padding-inline: 30px;
     padding-top: 20px;
-padding-bottom: 50px;
-border-top-right-radius: 15px;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
+    padding-bottom: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 15px;
 }
 .containerButton {
     margin-left: 180px;

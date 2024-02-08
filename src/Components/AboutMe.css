@@ -1,5 +1,6 @@
 .imageProfile {
     border-radius: 10px;
+    margin-right: 20px;
 }
 .containerAbout {
     display: flex;
@@ -31,6 +32,6 @@ flex-direction: column;
 .buttonAbout {
     background-color: transparent;
     border:none;
-    width: 1300px;
+    width: 1200px;
 
 }

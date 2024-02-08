@@ -1,0 +1,39 @@
+.containerFooter {
+    background-color:rgba(0,7,33,0.8);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.titleFoot {
+    justify-content: center;
+    display: flex;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.SocialContainer {
+    position: absolute;
+    margin-top: 66px;
+}
+
+.buttonImageFoot {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    opacity: 0.6;
+}
+.buttonImageFoot:hover {
+    transform: scale(1.1);
+    opacity:unset
+} 
+
+.containerSocialButtons {
+    display: flex;
+    justify-content: space-around;
+    width: 404px;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+

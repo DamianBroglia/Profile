@@ -67,18 +67,17 @@ function Animations() {
             }
             {showAnimation &&
                 <div className='container'>
-                    <VideoCard videoId="KVZBvolfqaU" title="Mumbai Construcciones" />
-                    <VideoCard videoId="yZW0XUuD-Vk" title="Ceppi Ferretería" />
-                    <VideoCard videoId="REwteZHGtoY" title="Vida Sibarita" />
-                    <VideoCard videoId="X-G47PqOQ84" title="Zaida Biccoca" />
+                    <VideoCard videoId="fIeSEpe9CLY" title="Rock Starts Fight - John vs Michael"/>
+                    <VideoCard videoId="oigZkpNatKc" title="Explotando BC" />
+                    <VideoCard videoId="tP-rxb1AKVw" title="Rock Starts Fight - Kurt vs Axl"/>
+                    <VideoCard videoId="pm_icmdkrGQ" title="Fin de Ciclo" />
                 </div>
             }
             {showAnimationEdit &&
                 <div className='container'>
-                    <VideoCard videoId="X-G47PqOQ84" title="Zaida Biccoca" />
-                    <VideoCard videoId="yZW0XUuD-Vk" title="Ceppi Ferretería" />
-                    <VideoCard videoId="REwteZHGtoY" title="Vida Sibarita" />
-                    <VideoCard videoId="KVZBvolfqaU" title="Mumbai Construcciones" />
+                    <VideoCard videoId="XqQ9B3ky1HpM" title="Perros Crotos Video Promo" />
+                    <VideoCard videoId="tAT265xFe0Q" title="Voy a perder la cabeza por tu amor" />
+
                 </div>
             }
 

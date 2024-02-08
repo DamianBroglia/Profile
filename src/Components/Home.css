@@ -1,4 +1,22 @@
-.container {
+.containerHome {
 display: flex;
 position: relative;
+flex-direction: column;
+align-items: center;
+color:aliceblue;
+margin-bottom: 51px;
+}
+
+.titleHome {
+    font-size: 52px;
+    margin-bottom: 50px;
+}
+
+.subtitleHome {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.textHome {
+    font-size: 28px;
 }
