@@ -21,16 +21,17 @@ import imageProde3 from "../Asset/Prode3.jpg"
 function Projects() {
 
     return (
+
         <div className='containerProjects'>
 
-<Link to="/projects/FutbolProde">
-            <ProjectsCard
-                image1={imageProde1}
-                image2={imageProde2}
-                image3={imageProde3}
-                title="Futbol Prode"
-                type="app"
-            />
+            <Link to="/projects/FutbolProde">
+                <ProjectsCard
+                    image1={imageProde1}
+                    image2={imageProde2}
+                    image3={imageProde3}
+                    title="Futbol Prode"
+                    type="app"
+                />
             </Link>
 
             <Link to="/projects/Turnero">
@@ -44,36 +45,37 @@ function Projects() {
             </Link>
 
             <Link to="/projects/Patagonia">
-            <ProjectsCard
-                image1={imagePatagonia1}
-                image2={imagePatagonia2}
-                image3={imagePatagonia3}
-                title="Patagonia Horizon app"
-                type="web"
-            />
+                <ProjectsCard
+                    image1={imagePatagonia1}
+                    image2={imagePatagonia2}
+                    image3={imagePatagonia3}
+                    title="Patagonia Horizon app"
+                    type="web"
+                />
             </Link>
 
             <Link to="/projects/DogApp">
-            <ProjectsCard
-                image1={imageDogApp1}
-                image2={imageDogApp2}
-                image3={imageDogApp3}
-                title="Dogs App"
-                type="web"
-            />
+                <ProjectsCard
+                    image1={imageDogApp1}
+                    image2={imageDogApp2}
+                    image3={imageDogApp3}
+                    title="Dogs App"
+                    type="web"
+                />
             </Link>
 
             <Link to="/projects/RickAndMorty">
-            <ProjectsCard
-                image1={imageRickAndMorty}
-                image2={imageRickAndMorty2}
-                image3={imageRickAndMorty3}
-                title="Rick & Morty App"
-                type="web"
-            />
+                <ProjectsCard
+                    image1={imageRickAndMorty}
+                    image2={imageRickAndMorty2}
+                    image3={imageRickAndMorty3}
+                    title="Rick & Morty App"
+                    type="web"
+                />
             </Link>
 
         </div>
+
     );
 }
 
